@@ -4,13 +4,17 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:layout_margin="10dp">
+
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/txtUserName"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:id="@+id/txtHorario"/>
+        android:padding="15dp"/>
+
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/txtHorario"
+        android:layout_width="81dp"
         android:layout_height="wrap_content"
-        android:id="@+id/txtUserName"/>
+        android:layout_marginLeft="50dp"/>
 
 </LinearLayout>
