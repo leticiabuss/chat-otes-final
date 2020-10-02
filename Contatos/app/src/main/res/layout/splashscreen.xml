@@ -10,7 +10,9 @@
         android:id="@+id/imageView2"
         android:layout_width="157dp"
         android:layout_height="480dp"
-        app:srcCompat="@drawable/chat__2_"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="125dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chat__2_" />
 </androidx.constraintlayout.widget.ConstraintLayout>
